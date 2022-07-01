@@ -7,18 +7,18 @@ const PORT = 8000
 app.use(cors())
 
 
-const superheros = {
-    'spiderman': {
-        'birthName': 'Peter Parker',
-        'powers': 'super strenght, spidey-sense, wall-crawling'
+// const superheros = {
+//     'spiderman': {
+//         'birthName': 'Peter Parker',
+//         'powers': 'super strenght, spidey-sense, wall-crawling'
 
-    },
-    'the punisher':{
-        'birthName': 'Frank Castle',
-        'powers': 'none, skilled combatant'
-    }
+//     },
+//     'the punisher':{
+//         'birthName': 'Frank Castle',
+//         'powers': 'none, skilled combatant'
+//     }
 
-}
+// }
 
 
 app.get('/', (request, response) =>{
